@@ -7,16 +7,16 @@ max-width: 960px;
 padding: 20px;
 }
 :root {
-    --primary-color: #19647e;
-    --secondary-color: #28afb0
-    --accent1-color: #f4d35e
-    --accent2-color: #ee964b
-    --heading-font: 'Roboto', serif;
-    --paragraph-font: 'Roboto', serif;
-    --Nav-background-color: #19647e
-    --nav-link-color: #28afb0
-    --nav-hover-link-color: #f4d35e
-    --nav-hover-background-color: #ee964b
+--primary-color: #19647e;
+--secondary-color: #28afb0;
+--accent1-color: #f4d35e;
+--accent2-color: #ee964b;
+--heading-font: 'Roboto', serif;
+--paragraph-font: 'Roboto', serif;
+--Nav-background-color: #19647e;
+--nav-link-color: #28afb0;
+--nav-hover-link-color: #f4d35e;
+--nav-hover-background-color: #ee964b;
 
   }
   h1, h2, h3, h4, h5, h6 {
