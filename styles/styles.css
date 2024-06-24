@@ -42,16 +42,16 @@ main {
   max-width: 840px
 }
 aside {
-  width: 20rem
-  margin: 1 rem;
-  border: 1px solid rgbs(0,0,0,0.2);/*1*/
+  width: 20rem;
+  margin: 1rem;
+  border: 1px solid rgba(0,0,0,0.2);/*1*/
   padding: 1rem;
   background-color: #eee;
   color: #333;
   text-align: center;
 }
 aside img {
-  width 200px;
+  width 200;
   height: auto;
 }
 footer {
