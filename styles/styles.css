@@ -50,6 +50,7 @@ main {
 aside {
   width: 20rem;
   text-align: center;
+  position: relative;
 }
 aside img {
   width: 175px;
@@ -57,15 +58,15 @@ aside img {
 }
 aside h2 {
   position: absolute;
-  top: 680px;
-  left: 75px;
+  top: 15px;
+  left: 70px;
 }
 footer {
   margin-top: 15px;
   border-top: 1px solid #000;
   text-align: center;
 }
-/*class Selectors */
+/* Class Selectors */
 .box {
   margin: 1rem;
   border: 1px solid rgba(0,0,0,1);
