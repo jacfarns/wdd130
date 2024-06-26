@@ -1,3 +1,8 @@
+* {
+margin: 0;
+Padding: 0;
+box-sizing: border-box;
+}
 html {
   font-size: 10px; /* px means "pixels": the base font size is now 10 pixels high */
   font-family: "Open Sans", sans-serif; /* this should be the rest of the output you got from Google Fonts */
@@ -34,6 +39,7 @@ main img {
   border: 1px solid steelblue;
   padding: 2px;
   box-shadow: 0 0 30px gray;
+  float: right;
 }
 p {
   padding: 0;
@@ -43,19 +49,27 @@ main {
 }
 aside {
   width: 20rem;
-  margin: 1rem;
-  border: 1px solid rgba(0,0,0,0.2);/*1*/
-  padding: 1rem;
-  background-color: #eee;
-  color: #333;
   text-align: center;
 }
 aside img {
-  width: 200px;
+  width: 175px;
   height: auto;
+}
+aside h2 {
+  position: absolute;
+  top: 700px;
+  left: 75px;
 }
 footer {
   margin-top: 15px;
   border-top: 1px solid #000;
   text-align: center;
+}
+/*class Selectors */
+.box {
+  margin: 1rem;
+  border: 1px solid rgba(0,0,0,1);
+  padding: 1rem;
+  background-color: #eee;
+  color: #333;
 }
