@@ -40,16 +40,23 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--nav-hover-link-color);
     background-color: var(--nav-hover-background-color);
   } 
+  .hero {
+    position: relative;
+  }
   .hero img {
     display: block;
     width: 100%;
     height: auto;
-    position: relative;
   }
   .hero h1 {
-    position:absolute
+    position:absolute;
+    top: 10px;
+    left: 20px
   }
 .hero article {
-  position:absolute
-  float:right;
+  position:absolute;
+  top: 50px;
+  right: 50px;
+  width: 25%;
+  float: right;
 }
