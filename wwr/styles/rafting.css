@@ -16,9 +16,11 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--primary-color);
   }
   header {
-    padding: 20px;
+    padding: 10px;
     background-color: var(--accent1-color);
-    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
   }
   p {
     padding:25px;
@@ -27,6 +29,9 @@ h1, h2, h3, h4, h5, h6 {
     background-color: var(--nav-baackground-color);
     font-size: 1.2rem;
     display: flex;
+  }
+  header img {
+    width: 150px
   }
   nav a {
     display: block;
@@ -61,4 +66,20 @@ h1, h2, h3, h4, h5, h6 {
   width: 25%;
   float: right;
   background: radial-gradient(#28afb0, #eee)
+}
+.history {
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+.adventure {
+  grid-template-columns: 1fr;
+  align-items: center;
+}
+footer {
+  padding: 10px;
+  background-color: var(--accent1-color);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: right;
+
 }
