@@ -74,12 +74,14 @@ h1, h2, h3, h4, h5, h6 {
   justify-content: center;
   align-items: center;
 }
-.adventures img {
-  width: 20%;
+figure img {
+  width: 275px;
   height: auto;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  align-items: flex-start;
+}
+figure {
+  padding: 0;
+  margin: 10px;
 }
 footer {
   padding: 10px;
@@ -88,4 +90,10 @@ footer {
   grid-template-columns: 1fr 30%;
   justify-content: center;
   align-items: flex-end;
+}
+figcaption {
+  text-align: center;
+}
+.figure-flex {
+  display: flex;
 }
