@@ -14,6 +14,8 @@
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
     color: var(--primary-color);
+    padding: 20px;
+    text-align: center;
   }
   header {
     padding: 10px;
@@ -26,7 +28,8 @@ h1, h2, h3, h4, h5, h6 {
     padding:25px;
   }
   Nav {
-    background-color: var(--nav-baackground-color);
+    color:black
+    background-color: var(--nav-background-color);
     font-size: 1.2rem;
     display: flex;
   }
@@ -34,13 +37,13 @@ h1, h2, h3, h4, h5, h6 {
     width: 150px
   }
   nav a {
+    color: black
     display: block;
-    color: var(--nav-link-color);
     text-decoration: none;
     padding: 1rem;
   }
   nav a:link, nav a:visited {
-    color: var(--nav-link-color);
+    color: black
   }
   nav a:hover {
     color: var(--nav-hover-link-color);
@@ -57,15 +60,21 @@ h1, h2, h3, h4, h5, h6 {
   .hero h1 {
     position:absolute;
     top: 10px;
-    left: 20px
+    left: 0;
+    right: 0;
+    text-align: center;
+
   }
 .hero article {
   position:absolute;
-  top: 50px;
+  top: 130px;
   right: 50px;
-  width: 25%;
-  float: right;
+  width: 90%;
   background: radial-gradient(#28afb0, #eee)
+}
+.hero article img {
+width: 300px;
+float: right;
 }
 .history {
   grid-template-columns: 1fr 1fr;
@@ -75,7 +84,7 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
 }
 figure img {
-  width: 275px;
+  max-width: 100%;
   height: auto;
   display: grid;
 }
@@ -92,7 +101,7 @@ footer {
   align-items: flex-end;
 }
 footer img {
-  width: 100px
+  width: 40px
 }
 figcaption {
   text-align: center;
