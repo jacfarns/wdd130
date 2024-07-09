@@ -28,7 +28,7 @@ h1, h2, h3, h4, h5, h6 {
     padding:25px;
   }
   Nav {
-    color:black
+    color:black;
     background-color: var(--nav-background-color);
     font-size: 1.2rem;
     display: flex;
@@ -37,7 +37,7 @@ h1, h2, h3, h4, h5, h6 {
     width: 150px
   }
   nav a {
-    color: black
+    color: black;
     display: block;
     text-decoration: none;
     padding: 1rem;
