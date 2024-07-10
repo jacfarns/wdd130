@@ -136,11 +136,11 @@ label {
   width: 200px;
   display: flex;
   display: grid;
-  grid-template-rows: 30% 30% 30%;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 .contact h2 {
   text-align: left;
   padding: 20px;
   display: grid;
-  grid-template-rows: 30% 30% 30%;
+  grid-template-columns: 30% 30% 30%;
 }
