@@ -129,13 +129,18 @@ label {
   text-align: center;
   padding-right: 1rem;
 }
-.employee_pic img {
-  max-width: 100px;
-  height: auto;
-  display: grid;
+.contact h1 {
+  position: inherit
 }
-.contact {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
+.contact img{
+  width: 200px;
+  display: flex;
+  display: grid;
+  grid-template-rows: 30% 30% 30%;
+}
+.contact h2 {
+  text-align: left;
+  padding: 20px;
+  display: grid;
+  grid-template-rows: 30% 30% 30%;
 }
