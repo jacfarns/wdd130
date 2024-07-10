@@ -109,3 +109,33 @@ figcaption {
 .figure-flex {
   display: flex;
 }
+form {
+  width:500px;
+  margin: 0 auto;
+  padding: 1rem;
+  border: 5px solid rgba(0,0,0,0.1);
+  border-radius: 0.5rem;
+  background-color: #eee;
+  display: grid;
+}
+fieldset {
+  display: grid;
+  grid-gap: .5rem;
+  margin: 1rem;
+  border: 1px solid rgba(0,0,0,0.2);
+  padding: 1rem;
+}
+label {
+  text-align: center;
+  padding-right: 1rem;
+}
+.employee_pic img {
+  max-width: 100px;
+  height: auto;
+  display: grid;
+}
+.contact {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
