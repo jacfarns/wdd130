@@ -132,15 +132,12 @@ label {
 .contact h1 {
   position: inherit
 }
-.contact img{
-  width: 200px;
-  display: flex;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+.employee img {
+display: flex;
 }
 .contact h2 {
   text-align: left;
-  padding: 20px;
+  padding: 10px;
   display: grid;
   grid-template-columns: 30% 30% 30%;
 }
