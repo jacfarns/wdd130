@@ -154,3 +154,41 @@ display: flex;
   text-align: left;
   padding: 10px;
 }
+.index {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.hero {
+  grid-column: 1/3;
+  display: flex;
+}
+.solo {
+  grid-column: 1/2;
+}
+.solo img {
+  width: 500px;
+  padding: 10px;
+}
+.group {
+  grid-column: 2/3;
+}
+.group img {
+  width: 500px;
+  padding: 10px;
+}
+.trips {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.hero {
+  grid-column: 1/4;
+}
+.large_groups img {
+  width: 500px;
+  padding: 10px;
+}
+.table {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  border: 2px
+}
