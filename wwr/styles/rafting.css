@@ -180,15 +180,16 @@ display: flex;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
-.hero {
-  grid-column: 1/4;
+.trips img {
+  grid-column:1/4;
 }
 .large_groups img {
   width: 500px;
   padding: 10px;
 }
-.table {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  border: 2px
+.trips h1 {
+  grid-column: 1/4;
+}
+.trips h3 {
+  grid-column: 1/4;
 }
